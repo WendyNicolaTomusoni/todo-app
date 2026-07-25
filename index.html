@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>My To-Do App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+    <h1>My To-Do List</h1>
+
+    <button id="darkModeBtn">
+    🌙 Dark Mode
+</button>
+
+
+    <div class="input-section">
+
+    <input 
+        type="text" 
+        id="taskInput" 
+        placeholder="Enter a task"
+    >
+
+
+    <select id="priority">
+
+        <option value="High">🔥 High</option>
+
+        <option value="Medium" selected>📌 Medium</option>
+
+        <option value="Low">🌱 Low</option>
+
+    </select>
+
+
+    <input 
+        type="date"
+        id="dueDate"
+    >
+
+
+    <button onclick="addTask()">
+        Add
+    </button>
+
+</div>
+
+    <input 
+    type="text"
+    id="searchInput"
+    placeholder="Search tasks..."
+>
+
+
+    <!-- Task Counter -->
+
+    <div class="counter">
+
+    <p>
+        📋 Total:
+        <span id="totalTasks">0</span>
+    </p>
+
+
+    <p>
+        ✅ Completed:
+        <span id="completedTasks">0</span>
+    </p>
+
+
+    <p>
+        ⏳ Remaining:
+        <span id="remainingTasks">0</span>
+    </p>
+
+</div>
+
+
+<div class="progress-container">
+
+    <div id="progressBar"></div>
+
+</div>
+
+
+<p id="progressText">
+    0% Completed
+</p>
+
+
+
+    <!-- Tasks will appear here -->
+
+    <ul id="taskList">
+
+    </ul>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
