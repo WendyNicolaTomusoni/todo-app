@@ -281,9 +281,6 @@ Interested in:
 GitHub:
 https://github.com/WendyNicolaTomusoni
 
-LinkedIn:
-(Add your LinkedIn profile link)
-
 ---
 
 # 📌 Project Status
