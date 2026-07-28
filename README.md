@@ -80,12 +80,14 @@ The dashboard tracks productivity by displaying:
 
 The application includes modern PWA capabilities:
 
-- Installable on supported devices
-- Mobile-friendly responsive design
+## Progressive Web App Features
+
+- Installable application
 - Web App Manifest
 - Service Worker support
-- Custom application icons
-- App-like experience on mobile devices
+- Offline functionality
+- Custom app icons
+- Mobile app-like experience
 
 ---
 
